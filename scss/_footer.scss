@@ -1,0 +1,9 @@
+@use 'variables' as *;
+
+footer{
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+footer h6{
+  font-size: 1em;
+}

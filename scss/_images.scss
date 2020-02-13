@@ -1,0 +1,17 @@
+@use 'mixins' as *;
+
+.header-image {
+  width: 72px;
+  height: 48px;
+}
+.header-image img{
+  @include same-size(100%);
+}
+.photoContainer img{
+  @include same-size(100%);
+  object-fit: cover;
+  object-position: center;
+}
+.photoContainer{
+  height: 10em;
+}

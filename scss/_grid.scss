@@ -1,0 +1,18 @@
+.footer-grid{
+  display: grid;
+  grid-column: 2;
+  grid: auto / 1fr 1fr;
+  column-gap: 30px;
+  padding: 32px 0;
+}
+.field-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1 / -1;
+}
+.main-grid{
+  padding: 50px 0;
+  display: grid;
+  grid: auto-flow auto / repeat(4, 1fr);
+  grid-gap: 20px;
+}

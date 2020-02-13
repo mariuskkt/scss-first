@@ -1,0 +1,35 @@
+@use 'wrapper' as *;
+@use 'variables' as *;
+@use 'list' as *;
+@use 'footer' as *;
+@use 'grid' as *;
+@use 'mixins' as *;
+@use 'button' as *;
+@use 'images' as *;
+@use 'form' as *;
+@use 'nav' as *;
+@use 'media' as *;
+
+body{ margin: 0;
+}
+header{
+  background-color: $primary-color;
+}
+h3{
+  text-transform: uppercase;
+}
+p span{
+  font-weight: bold;
+}
+.main{
+  grid-column: 2;
+}
+.main, .contact{
+  text-align: center;
+}
+.contact{
+  padding: 30px 0;
+}
+.no-underline:hover{
+  text-decoration: none;
+}

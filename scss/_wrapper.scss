@@ -1,0 +1,14 @@
+
+%wrapper {
+  display: grid;
+  grid: auto / 100px 1fr 100px;
+}
+header{
+  @extend %wrapper;
+}
+main{
+  @extend %wrapper;
+}
+footer {
+  @extend %wrapper;
+}

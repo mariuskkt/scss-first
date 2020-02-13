@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+.form-button{
+  background-color: $primary-color;
+  color: $secondary-color;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  grid-column: 2;
+  border: 2px solid $primary-color;
+}
+.form-button:hover{
+  color: $primary-color;
+  background-color: $secondary-color;
+  cursor: pointer;
+}

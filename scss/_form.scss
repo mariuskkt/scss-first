@@ -1,0 +1,22 @@
+.form-grid{
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  grid-column: 1 / -1;
+  grid-gap: 15px;
+}
+input{
+  grid-column: 1 / -1;
+  border-bottom: 1px solid black;
+  width: 100%;
+  font-size: 1.2em;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+.field-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1 / -1;
+}

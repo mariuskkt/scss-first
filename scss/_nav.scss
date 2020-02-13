@@ -1,0 +1,7 @@
+nav{
+  display: grid;
+  grid-column: 2;
+  grid-auto-flow:column;
+  justify-content: space-between;
+  grid-auto-columns: min-content;
+}

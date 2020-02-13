@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+nav ul{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 10px;
+  list-style-type: none;
+}
+li a{
+  color: $secondary-color;
+  text-decoration: none;
+}
+
+footer ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+footer li{
+  margin-bottom: 5px;
+}
+footer a:hover{
+  text-decoration: underline;
+}
